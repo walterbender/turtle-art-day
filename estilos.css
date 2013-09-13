@@ -1,0 +1,414 @@
+@charset "utf-8";
+/* CSS Document */
+
+body 
+{
+	background-color: #FFF;
+	margin-top:0px;
+	background-position: center top;
+}
+.contenedor
+{
+	border:0;
+	width: 1000px;
+	height: auto;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+header 
+{
+	background: -moz-linear-gradient(top, black, white);
+}
+
+.linkMenu
+{
+	font-family:Verdana;
+	font-size: 14px;
+	color:#666;
+	text-decoration:none;
+}
+
+.titulo
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:23px; 
+}
+
+.Subtitulo
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size:19px; 
+}
+
+.txt_gen
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size: 16px;
+}
+
+.txt_gen_blanco
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFF;
+	font-size: 16px;
+}
+
+.txt_blanco_peque
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #FFF;
+	font-size: 13px;
+}
+
+.txt_gen_gris
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	font-size: 16px;
+}
+
+.txt_gen_peque
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color: #999;
+	font-size: 13px;
+}
+
+
+.txt_gen_pie
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size: 13px;
+	line-height:1.5;
+}
+
+.txt_nota
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size: 11px;
+	line-height:1.5;
+}
+
+.txt_form
+{
+	font-family: Helvetica, Arial, sans-serif;
+	color:#000;
+	font-size: 14px;
+}
+
+.HiperVerde
+{
+	color: #97BF0D;
+	text-decoration:underline;
+}
+
+.HiperAma
+{
+	color: #FBBF0D;
+	text-decoration:underline;
+}
+
+.HiperAzul
+{
+	color: #32B5B8;
+	text-decoration:underline;
+}
+
+.HiperRojo
+{
+	color:#E42622;
+	text-decoration:underline;
+}
+
+.HiperNaran
+{
+	color:#F29400;
+	text-decoration:underline;
+}
+
+.HiperViole
+{
+	color:#9B3E8C;
+	text-decoration:underline;
+}
+
+.HiperGris
+{
+	color:#333;
+	text-decoration:underline;
+}
+
+a:hover 
+{
+	color: #000000;
+}
+
+
+li 
+{
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+
+ul 
+{
+	list-style-type: disc;
+}
+
+/*------------------------------------custom*/
+/*events*/
+.events-list .txt_gen tr td {
+	text-align: left;
+	vertical-align: top;
+}
+
+.mini-sort {
+	margin: 0;
+	padding: 0;
+	display: inline !important;
+}
+
+a.sorter {
+	/*text-decoration: none;*/
+}
+
+div.asc,
+div.desc {
+	display: inline;
+}
+
+
+.add-event a:visited,
+.events-list-adm a:visited, 
+.add-event a,
+.events-list-adm a {
+	color: #666666;
+}
+
+.add-event a:hover,
+.events-list-adm a:hover {
+	color: #000;
+}
+
+
+.add-event {
+	text-align: right;	
+}
+
+.events-list-adm {
+	border: 1px solid #fbbf0d;
+	width: 100%;
+}
+
+.events-list-adm thead tr {
+	background: #fbbf0d;
+	color: #FFF;
+}
+
+.events-list-adm th,
+.events-list-adm td {
+	padding: 4px;
+}
+
+.events-list-adm tbody tr.even {
+	background: #fef2cd;
+}
+
+.events-list-adm tbody tr.odd {
+	background: #fde9ac;
+}
+
+.events-list-adm tbody tr:hover {
+	background: #fff9e6;
+}
+
+.events-edit label {
+	font-weight: bold;
+}
+.events-edit label.txt_gen,.events-edit label.txt_nota,.events-edit label.titulo{
+	font-weight: normal;
+}
+
+.events-edit input,
+.events-edit textarea,
+.events-edit select{
+	display: block;
+	margin-bottom: 10px;
+	width: 320px;
+}
+
+.events-edit textarea {
+	width: 640px;
+	height: 120px
+}
+
+.events-edit input[type='submit'] {
+	width: 120px;
+}
+
+.events-edit input[type='radio'] {
+	display: inline;
+	width: auto;
+}
+
+form .error {
+	border: 1px solid #ff0000;
+}
+
+.events-edit .ui-datepicker-trigger{
+	position: relative;
+	left: 327px;
+	top: -28px;
+}
+
+/*pagination*/
+.pagination {
+	text-align: center;
+}
+
+.pagination a {
+	color: #FBBF0D;
+	text-decoration: none;
+}
+
+.pagination a:hover {
+	color: #000;
+	/*text-decoration: underline;*/
+}
+
+.pagination a.active {
+	color: #000;
+}
+/*event*/
+
+.event-head h4 {
+	margin-top: 0;	
+	font-weight: normal;
+	font-style: italic;
+}
+
+.event-description {
+	border-top: 2px dotted #cccccc;
+	border-bottom: 2px dotted #cccccc;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+table.event-detail {
+	width: 100%;	
+}
+
+table.event-detail tr td {
+	text-align: left;
+	vertical-align: top;
+}
+
+.event-more-info, 
+.event-general-public {
+	margin-top: 20px;
+}
+
+/*user*/
+.user-detail tr td {
+	text-align: left;
+	vertical-align: top;
+}
+
+.user-detail-info {
+	font-style: italic;
+}
+
+.user-detail a {
+	margin-left: 30px;
+}
+
+
+
+.table-login {
+    font-size: 12px;
+    /*font-weight: bold;*/
+    font-family: "Helvetica","Trebuchet MS","Arial","Verdana","sans-serif";
+}
+.create-user-title {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Helvetica","Trebuchet MS","Arial","Helvetica","Verdana","sans-serif";
+	margin-left: 40px;
+	margin-bottom:20px;
+	text-align:center;
+}
+.ui-widget-header .ui-icon {
+	text-indent: -9999 !important;
+}
+
+div.create-user{
+	width:450px;
+}
+div.create-user > form > div > label.autologin,
+div.create-user > form > div > label{
+	float: left;
+	width: 162px;
+	margin-right: 5px;
+	text-align: right;
+	
+}
+div.create-user > form > div > label.autologin{
+	width: 450px;
+	text-align: center;
+}
+div.create-user > form > div > input[type="password"],
+div.create-user > form > div > input[type="text"] {
+    width: 196px;
+    color: rgb(125, 133, 130);
+}
+div.create-user > form > div > div.wrapper-select-form > select {
+    width: 198px;
+    color: rgb(125, 133, 130);
+}
+div.create-user > form > .button-submit-form {
+    float: left;
+    height: 26px;
+    margin-left: 168px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+    margin-right: 400px;
+    width: 66px;
+}
+.wrapper-fileinput-button-form{
+	display:inline-block;
+	width:200px;
+}
+
+.form-text,.form-item,.form-item label{
+	float:left;
+}
+
+.form-required{
+	color:#DA0A18;
+}
+.form-item{
+	margin-top:10px;
+	width:90%;
+}
+.form-item label{
+	font-weight:bold;
+}
+.captcha,.form-textarea{
+	width:80%;
+	float:left;
+}
+
+.edit-user label{
+	font-weight:bold;
+	margin-top:10px;
+	float: left;
+}
+.edit-user input[type=text],.edit-user select{
+	width:210px;
+}
